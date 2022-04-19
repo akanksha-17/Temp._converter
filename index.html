@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature conversion</title>   
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta charset="UTF-8"/>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style/main.css"/>
+</head>
+<body>
+    <div class="container h-100">
+   
+        <div class="row h-100 justify-content-center align-items-center" id="inputts">
+            <div class="col-8">
+                <h1 class="h1 mb-5" id="title">Temperature Conversion Tool</h1>
+                <div class="input-group">
+                    <input type="text" id="celsius" class="form-control" aria-label="celsius" aria-describedby="celsiusLabel">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="celsiusLabel">(°C)</span>
+                    </div>
+                </div>
+                
+                <div class="input-group my-5">
+                    <input type="text" id="fahrenheit" class="form-control" aria-label="fahrenheit" aria-describedby="fahrenheitLabel">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="fahrenheitLabel">(°F)</span>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" id="kelvin" class="form-control" aria-label="kelvin" aria-describedby="kelvinLabel">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="kelvinLabel">(°K)</span>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    
+    <!-- footer section start -->
+    <footer>
+		<span style="padding-left:30%;">Copyright 2022 by @ Akanksha Kumbharkar. All Rights Reserved</span>
+    </footer>
+
+    <script src="src/script/main.js"></script>
+</body>
+</html>
